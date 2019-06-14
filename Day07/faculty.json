@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun 11 10:53:22 2019
+
+@author: Hp
+"""
+
+import json
+faculty_profile="""
+{
+ "faculty1":{
+ "first_name" : "aman",
+ "last_name" : "gupta",
+ "photo" : "file:///C:/Users/Hp/Desktop/g.jpg",
+ "department" : "computer science",
+ "research areas" : "back end",
+ "contact_details" : {
+ "phone number" : [8707673110,9169411643],
+ "email id" : ["amanrocks077@gamil.com","talktoaman0112@gmail.com"]
+ }
+ "faculty1":{
+ "first_name" : "ritika",
+ "last_name" : "chaurasia",
+ "photo" : "file:///C:/Users/Hp/Desktop/g.jpg",
+ "department" : "commerce",
+ "research areas" : "front end",
+ "contact_details" : {
+ "phone number" : [8707673110,9599562661],
+ "email id" : ["chaurasiaritika17@gmail.com","talktoaman0112@gmail.com"]
+ }
+ }
+ }
+ }
